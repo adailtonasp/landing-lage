@@ -1,0 +1,9 @@
+.main{
+    display: inline-block;
+    
+}
+
+#main-form{
+    display: flex;
+    justify-content: center;
+}
