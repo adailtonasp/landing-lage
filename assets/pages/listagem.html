@@ -23,22 +23,11 @@
     </header>
     <hr>
     <main>
-        <h1>Entre em contato!</h1>
-
-        <div class="main">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HOv9CqqAZk0?si=TIbK1Qj_H0FDlDwr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="main" id="main-form">
-            <form action="#" class="form-apart">
-                <p>Digite seu email</p>
-                <input type="text" id="email">
-                <p>Digite sua mensagem</p>
-                <input type="text" id="mensagem">
-                <input type="submit" value="Enviar" onclick="capturarDados()">
-            </form>
-        </div>
-        
-        <script src="../../js/form.js"></script>
+        <h1>Listagem de contatos</h1>
+        <button onclick="listarDados()">Gerar Lista</button>
+        <div id="lista"></div>
+        <script src="../../js/form.js">
+        </script>
     </main>
     <hr>
     <footer>
