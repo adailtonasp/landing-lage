@@ -21,8 +21,6 @@ function capturarDados(){
 
 function listarDados(){
 
-    console.log("listarDados");
-
     for(let i = 0; i < localStorage.length;i++){
         const cliente_json = localStorage.getItem(localStorage.key(i))
         console.log(cliente_json);
@@ -33,4 +31,8 @@ function listarDados(){
     }
 
     return lista;
-} 
+}
+
+function limparDados(){
+    localStorage.clear();
+}
